@@ -15,17 +15,36 @@ body {
 
 .full-page {
     height: 100vh;
-    background-color: red;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 h2 {
     font-size: 40px;
 }
 
-#content,
 h2 {
     color: yellow;
+}
+
+.full-page .content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
 }
