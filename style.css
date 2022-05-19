@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.full-page {
+    height: 100vh;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#content,
+h2 {
+    color: yellow;
+}
