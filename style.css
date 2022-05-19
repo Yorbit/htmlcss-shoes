@@ -48,3 +48,16 @@ h2 {
 #yellow {
     background-color: yellow;
 }
+
+html {
+    overflow-y: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
